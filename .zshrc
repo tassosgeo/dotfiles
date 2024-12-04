@@ -116,6 +116,14 @@ alias zn="zellij -s"
 alias zk="zellij kill-session"
 alias zka="zellij kill-all-sessions"
 
+alias nvim=/opt/nvim/nvim.appimage
+alias vim="nvim"
+alias vi="nvim"
+alias v="nvim"
+alias nv="nvim"
+
+export PATH=/opt/nvim:$PATH
+
 # Start zsh with starship
 eval "$(starship init zsh)"
 #eval "$(zellij setup --generate-auto-start zsh)"
