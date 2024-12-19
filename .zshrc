@@ -75,6 +75,7 @@ plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	z
+        vi-mode
 	web-search
 )
 
